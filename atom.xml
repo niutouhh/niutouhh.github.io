@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://niutouhh.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-04-09T08:16:32.987Z</updated>
+    <title>牛头嘿嘿的Blog</title>
+    <updated>2020-04-09T08:19:01.173Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://niutouhh.github.io"/>
     <link rel="self" href="https://niutouhh.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>数码、游戏生活</subtitle>
     <logo>https://niutouhh.github.io/images/avatar.png</logo>
     <icon>https://niutouhh.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 牛头嘿嘿的Blog</rights>
     <entry>
         <title type="html"><![CDATA[我的第一篇文章]]></title>
         <id>https://niutouhh.github.io/post/wo-de-di-yi-pian-wen-zhang/</id>
