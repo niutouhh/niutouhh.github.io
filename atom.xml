@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://niutouhh.github.io</id>
     <title>牛头嘿嘿的Blog</title>
-    <updated>2020-04-09T09:14:10.060Z</updated>
+    <updated>2020-04-09T13:06:48.249Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://niutouhh.github.io"/>
     <link rel="self" href="https://niutouhh.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://niutouhh.github.io/images/avatar.png</logo>
     <icon>https://niutouhh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 牛头嘿嘿的Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[依旧IKBC！W210无线机械键盘入手 ]]></title>
+        <id>https://niutouhh.github.io/post/ikbc-w210/</id>
+        <link href="https://niutouhh.github.io/post/ikbc-w210/">
+        </link>
+        <updated>2020-04-09T13:02:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>有幸终于得到了一直心水的IKBC W系列键盘-W210，还尝试了静音红轴，轴体虽然稍软，但是声音确实少了很多！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>有幸终于得到了一直心水的IKBC W系列键盘-W210，还尝试了静音红轴，轴体虽然稍软，但是声音确实少了很多！</p>
+<!-- more -->
+<h1 id="我的键盘折腾史">我的键盘折腾史</h1>
+<p>从第一次购买机械键盘，我就入了机械键盘的坑，虽然没有像高手那样玩客制化DIY，但也体验了很多款机械键盘。</p>
+<p>我的第一款机械键盘是酷冷至尊 烈焰枪 XT版：</p>
+<p>之后为了搭配我的Macbook Pro 2016，还购买过IKBC的Poker2，AKKO的3068以及Anne Pro2。<br>
+![](https://raw.githubusercontent.com/niutouhh/pic_token/master/img/Anne Pro2.jpg)</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我的第一篇文章]]></title>
         <id>https://niutouhh.github.io/post/wo-de-di-yi-pian-wen-zhang/</id>
