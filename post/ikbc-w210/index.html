@@ -1,104 +1,92 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>依旧IKBC！W210无线机械键盘入手  | 牛头嘿嘿的Blog</title>
+<meta name="description" content="数码、游戏生活">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://niutouhh.github.io/favicon.ico?v=1586748693011">
+<link rel="shortcut icon" href="https://niutouhh.github.io/favicon.ico?v=1586761608195">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://niutouhh.github.io/styles/main.css">
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="有幸终于得到了一直心水的IKBC W系列键盘-W210，还尝试了静音红轴，轴体虽然稍软，但是声音确实少了很多！
-
-我的键盘折腾史
-从第一次购买机械键盘，我就入了机械键盘的坑，虽然没有像高手那样玩客制化DIY，但也体验了很多款机械键盘。
-我的..." />
-    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://niutouhh.github.io">
-        <img src="https://niutouhh.github.io/images/avatar.png?v=1586748693011" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://niutouhh.github.io">
+        <img class="avatar" src="https://niutouhh.github.io/images/avatar.png?v=1586761608195" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://niutouhh.github.io">
         <h1 class="site-title">牛头嘿嘿的Blog</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      数码、游戏生活
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://niutouhh.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">依旧IKBC！W210无线机械键盘入手 </h2>
-            <div class="post-date">2020-04-09</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">依旧IKBC！W210无线机械键盘入手 </h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-04-09</span>
             
-            <div class="post-content" v-pre>
-              <p>有幸终于得到了一直心水的IKBC W系列键盘-W210，还尝试了静音红轴，轴体虽然稍软，但是声音确实少了很多！</p>
+          </div>
+          <div class="post-content">
+            <p>有幸终于得到了一直心水的IKBC W系列键盘-W210，还尝试了静音红轴，轴体虽然稍软，但是声音确实少了很多！</p>
 <!-- more -->
 <h1 id="我的键盘折腾史">我的键盘折腾史</h1>
 <p>从第一次购买机械键盘，我就入了机械键盘的坑，虽然没有像高手那样玩客制化DIY，但也体验了很多款机械键盘。<br>
@@ -159,31 +147,45 @@ IKBC W210采用了PBT键帽，与之前用过的Poker2和C87的相同，即使�
 实用性：个人很喜欢W210独立配备的三个媒体键盘，不用按FN键，就可以对音量进行控制，快捷实用。同时2.4G的无线连接摆脱了线缆的束缚，使用更加随意。<br>
 要说唯一遗憾的地方，如果W210能有双模版本就更好，毕竟连接笔记本时使用蓝牙连接，能节省一个接口的位置。</p>
 
-            </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://niutouhh.github.io/post/wo-de-di-yi-pian-wen-zhang/">
-                  <h3 class="post-title">
-                    我的第一篇文章
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
           </div>
-
         </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://niutouhh.github.io/post/wo-de-di-yi-pian-wen-zhang/">
+              <h3 class="post-title">
+                下一篇：我的第一篇文章
+              </h3>
+            </a>
+          </div>
+          
       </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">数码、游戏生活</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://niutouhh.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
     </div>
+    <script type="application/javascript">
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
+hljs.initHighlightingOnLoad()
 
 var app = new Vue({
   el: '#app',
@@ -193,8 +195,6 @@ var app = new Vue({
 })
 
 </script>
-
-
 
 
 
